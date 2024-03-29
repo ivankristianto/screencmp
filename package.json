@@ -1,0 +1,38 @@
+{
+  "name": "screencmp",
+  "version": "0.0.1",
+  "description": "Grab screenshots from url(s) and compare it",
+  "bin": {
+    "screencmp": "bin/screencmp"
+  },
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ivankristianto/screencmp.git"
+  },
+  "keywords": [
+    "screenshot",
+    "screengrab",
+    "screen-compare"
+  ],
+  "author": "Ivan Kristianto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivankristianto/screencmp/issues"
+  },
+  "homepage": "https://github.com/ivankristianto/screencmp#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "puppeteer": "^22.6.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@wordpress/prettier-config": "^3.11.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5"
+  }
+}
