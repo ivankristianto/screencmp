@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-"use strict";
+'use strict';
 
-process.title = "ScreenCMP";
+process.title = 'ScreenCMP';
 
-require("../lib/cli");
+require('../dist/cli');
