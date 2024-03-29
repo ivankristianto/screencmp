@@ -1,5 +1,5 @@
 {
-  "name": "screencmp",
+  "name": "@ivankristianto/screencmp",
   "version": "0.0.1",
   "description": "Grab screenshots from url(s) and compare it",
   "bin": {
