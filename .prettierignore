@@ -1,0 +1,14 @@
+*.php
+**/build/**
+**/dist/**
+**/node_modules/**
+**/vendor/**
+/content/plugins/**
+/content/mu-plugins/hm-gutenberg-tools/**
+/content/themes/twentyfourteen/
+/content/uploads/**
+
+/wordpress/**
+composer.lock
+package-lock.json
+
