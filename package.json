@@ -5,9 +5,10 @@
   "bin": {
     "screencmp": "bin/screencmp"
   },
+  "type": "module",
   "main": "dist/cli.js",
   "scripts": {
-    "build": "npm run clean && BABEL_ENV=commonjs babel src --out-dir dist",
+    "build": "npm run clean && rollup -c",
     "clean": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npm run clean && BABEL_ENV=commonjs babel src --watch --out-dir dist"
@@ -39,9 +40,13 @@
     "@babel/plugin-transform-runtime": "^7.24.3",
     "@babel/preset-env": "^7.24.3",
     "@babel/runtime": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "@wordpress/prettier-config": "^3.11.0",
     "core-js": "^3.36.1",
     "prettier": "^3.2.5",
-    "rimraf": "^5.0.5"
+    "rimraf": "^5.0.5",
+    "rollup": "^4.13.2"
   }
 }
