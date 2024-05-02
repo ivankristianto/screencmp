@@ -37,9 +37,9 @@ exports.handler = async function (argv) {
 
 	// @TODO: Should come from Environment Variables
 	await page.setCookie({
-		name: 'wordpress_logged_in_',
-		value: 'aaaa',
-		domain: 'loclhost',
+		name: 'cookie_name',
+		value: 'cookie_value',
+		domain: 'domain.com',
 		path: '/',
 	});
 
